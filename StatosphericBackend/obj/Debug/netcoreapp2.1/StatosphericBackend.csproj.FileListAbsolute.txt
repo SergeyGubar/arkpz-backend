@@ -1,0 +1,14 @@
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/bin/Debug/netcoreapp2.1/StatosphericBackend.deps.json
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/bin/Debug/netcoreapp2.1/StatosphericBackend.runtimeconfig.json
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/bin/Debug/netcoreapp2.1/StatosphericBackend.runtimeconfig.dev.json
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/bin/Debug/netcoreapp2.1/StatosphericBackend.dll
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/bin/Debug/netcoreapp2.1/StatosphericBackend.pdb
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.csprojAssemblyReference.cache
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.csproj.CoreCompileInputs.cache
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.RazorAssemblyInfo.cache
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.RazorAssemblyInfo.cs
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.AssemblyInfoInputs.cache
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.AssemblyInfo.cs
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.RazorTargetAssemblyInfo.cache
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.dll
+/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.pdb
