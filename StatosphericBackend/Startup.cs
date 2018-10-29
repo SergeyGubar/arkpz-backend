@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using StatosphericBackend.Context;
 using StatosphericBackend.Options;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace StatosphericBackend
 {
@@ -33,11 +34,16 @@ namespace StatosphericBackend
                 options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
             services.Configure<ApiOptions>(Configuration);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "StratoApi", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseSwagger();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -47,6 +53,11 @@ namespace StatosphericBackend
                 app.UseHsts();
             }
 
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Strato API V1");
+                c.RoutePrefix = string.Empty;
+            });
             app.UseHttpsRedirection();
             app.UseMvc();
         }

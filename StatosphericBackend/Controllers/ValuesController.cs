@@ -30,7 +30,6 @@ namespace StatosphericBackend.Controllers
             _httpClient = new HttpClient();
         }
 
-        // GET api/values
         [HttpGet]
         public IEnumerable<Launch> Get()
         {
@@ -50,8 +49,10 @@ namespace StatosphericBackend.Controllers
             }
         }
         
+        
+        
        
-        // GET api/values/5
+        /*// GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
@@ -74,6 +75,6 @@ namespace StatosphericBackend.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-        }
+        }*/
     }
 }
