@@ -1,10 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Net.Http;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity.UI.Pages.Account.Internal;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json;
 using StatosphericBackend.Context;
 using StatosphericBackend.Entities;
 using StatosphericBackend.Options;
@@ -21,7 +28,7 @@ namespace StatosphericBackend.Controllers
         private readonly HttpClient _httpClient;
 
         private static string BaseUrl = "https://api.darksky.net/forecast";
-        
+
         public ValuesController(ApplicationContext context, IOptions<ApiOptions> options)
         {
             _context = context;
@@ -29,52 +36,25 @@ namespace StatosphericBackend.Controllers
             _key = _options.Value.ApiKey;
             _httpClient = new HttpClient();
         }
-
-        [HttpGet]
+        
+        [HttpGet("launches")]
+//        [Authorize]
         public IEnumerable<Launch> Get()
         {
             return _context.Launches;
         }
-        
-        [HttpGet("getWeather")]
-        public async Task<string> Get(double latitude, double longitude)
+
+        [HttpGet("weather")]
+//        [Authorize]
+        public async Task<string> GetWeatherAsync(double latitude, double longitude)
         {
-            var httpClient = new HttpClient();
-            
             var url = $"{BaseUrl}/{_key}/{latitude},{longitude}";
-            
-            using (var result = await httpClient.GetAsync(url))
+
+            using (var result = await _httpClient.GetAsync(url))
             {
                 return await result.Content.ReadAsStringAsync();
             }
         }
         
-        
-        
-       
-        /*// GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }*/
     }
 }
