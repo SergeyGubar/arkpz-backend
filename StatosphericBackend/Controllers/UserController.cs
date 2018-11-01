@@ -1,9 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
+using System.IO;
 using System.Linq;
 using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -32,20 +35,26 @@ namespace StatosphericBackend.Controllers
         }
 
         [HttpPost("register")]
-        public async Task RegisterAsync([FromBody] UserRegisterModel userRegisterModel)
+        public async Task RegisterAsync([FromBody] UserRegisterRequestModel userRegisterRequestModel)
         {
             if (ModelState.IsValid)
             {
                 var user = new User
                 {
-                    Email = userRegisterModel.Email, UserName = userRegisterModel.Email, Role = userRegisterModel.Role
+                    Email = userRegisterRequestModel.Email,
+                    UserName = userRegisterRequestModel.Email,
+                    Role = userRegisterRequestModel.Role
                 };
-                var result = await _userManager.CreateAsync(user, userRegisterModel.Password);
+                var result = await _userManager.CreateAsync(user, userRegisterRequestModel.Password);
                 if (result.Succeeded)
                 {
                     await _signInManager.SignInAsync(user, false);
 
-                    await Login(new AuthModel {Email = userRegisterModel.Email, Password = userRegisterModel.Password});
+                    await Login(new AuthModel
+                    {
+                        Email = userRegisterRequestModel.Email,
+                        Password = userRegisterRequestModel.Password
+                    });
                 }
                 else
                 {
@@ -67,16 +76,16 @@ namespace StatosphericBackend.Controllers
                         new Claim(ClaimsIdentity.DefaultNameClaimType, user.UserName),
                         new Claim(ClaimsIdentity.DefaultRoleClaimType, user.Role)
                     };
-                    
+
                     var jwtSecurityToken = new JwtSecurityToken(
                         issuer: AuthOptions.Issuer,
                         audience: AuthOptions.Audience,
                         claims: claims,
                         expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(AuthOptions.Lifetime)),
-                        signingCredentials: new SigningCredentials(AuthOptions.GetSymmetricSecurityKey(),
+                        signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(AuthOptions.Key)),
                             SecurityAlgorithms.HmacSha256));
                     var encodedJwt = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
-    
+
                     var response = new
                     {
                         access_token = encodedJwt,
@@ -93,11 +102,33 @@ namespace StatosphericBackend.Controllers
             }
         }
         
-        [HttpPost("/logout")]
+        [HttpGet("getUser")]
+        public async Task GetCurrentUserAsync()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            await Response.WriteAsync(userId);
+        }
+
+        [HttpPost("logout")]
         public async Task LogOff()
         {
             // удаляем аутентификационные куки
             await _signInManager.SignOutAsync();
         }
+        
+        [HttpPost("uploadPhoto")]
+        [Authorize]
+        public async Task UploadPhotoAsync(IFormFile photo)
+        {
+            var user = await GetCurrentUser();
+            var userId = user.Id;
+            /*using (var stream = new MemoryStream())
+            {
+                await photo.CopyToAsync(stream);
+                var result = stream.ToArray();
+            }*/
+        }
+
+        private Task<User> GetCurrentUser() => _userManager.GetUserAsync(HttpContext.User);
     }
 }

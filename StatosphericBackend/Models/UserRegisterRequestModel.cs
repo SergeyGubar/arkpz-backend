@@ -1,6 +1,6 @@
 namespace StatosphericBackend.Entities
 {
-    public class UserRegisterModel: AuthModel
+    public class UserRegisterRequestModel: AuthModel
     {
         public string Role { get; set; }
     }

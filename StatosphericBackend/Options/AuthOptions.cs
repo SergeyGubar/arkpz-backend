@@ -7,7 +7,7 @@ namespace StatosphericBackend.Options
     {
         public const string Issuer = "StratoAuthServer"; // издатель токена
         public const string Audience = "http://localhost:5000/"; // потребитель токена
-        const string Key = "mysupersecret_secretkey!123";
+        public const string Key = "mysupersecret_secretkey!123";
         public const int Lifetime = 60;
 
         public static SymmetricSecurityKey GetSymmetricSecurityKey()

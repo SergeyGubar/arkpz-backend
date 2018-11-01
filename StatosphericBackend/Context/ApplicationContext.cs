@@ -11,7 +11,6 @@ namespace StatosphericBackend.Context
     {
 
         public DbSet<Launch> Launches { get; set; }
-//        public DbSet<User> Users { get; set; }
         
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {

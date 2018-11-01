@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Security.Claims;
@@ -38,14 +39,14 @@ namespace StatosphericBackend.Controllers
         }
         
         [HttpGet("launches")]
-//        [Authorize]
+        [Authorize]
         public IEnumerable<Launch> Get()
         {
             return _context.Launches;
         }
 
         [HttpGet("weather")]
-//        [Authorize]
+        [Authorize]
         public async Task<string> GetWeatherAsync(double latitude, double longitude)
         {
             var url = $"{BaseUrl}/{_key}/{latitude},{longitude}";

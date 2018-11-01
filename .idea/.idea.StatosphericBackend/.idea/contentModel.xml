@@ -11,18 +11,25 @@
           <e p="ApplicationContext.cs" t="Include" />
         </e>
         <e p="Controllers" t="Include">
+          <e p="UserController.cs" t="Include" />
           <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="Entities" t="Include">
           <e p="Launch.cs" t="Include" />
+          <e p="User.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20181025133653_LaunchMigration.Designer.cs" t="Include" />
-          <e p="20181025133653_LaunchMigration.cs" t="Include" />
+          <e p="20181030150552_initialMigr.Designer.cs" t="Include" />
+          <e p="20181030150552_initialMigr.cs" t="Include" />
           <e p="ApplicationContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="AuthModel.cs" t="Include" />
+          <e p="UserRegisterRequestModel.cs" t="Include" />
         </e>
         <e p="Options" t="Include">
           <e p="ApiOptions.cs" t="Include" />
+          <e p="AuthOptions.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
