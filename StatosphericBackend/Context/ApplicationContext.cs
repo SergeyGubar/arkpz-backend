@@ -11,6 +11,7 @@ namespace StatosphericBackend.Context
     {
 
         public DbSet<Launch> Launches { get; set; }
+        public DbSet<Photo> Photo { get; set; }
         
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {

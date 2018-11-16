@@ -2,26 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47558637-a3e3-450a-a31a-06437d1149f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/StatosphericBackend/Entities/Photo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StatosphericBackend/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StatosphericBackend/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StatosphericBackend/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StatosphericBackend/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StatosphericBackend/.idea/dataSources/64899ad2-61c4-4350-bdfa-370482e15ea4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StatosphericBackend/.idea/dataSources/64899ad2-61c4-4350-bdfa-370482e15ea4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StatosphericBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StatosphericBackend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StatosphericBackend/Context/ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/Context/ApplicationContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StatosphericBackend/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/Controllers/ValuesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Entities/AuthModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/Models/AuthModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Entities/RegisterModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Entities/UserRegisterModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/Models/UserRegisterRequestModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Options/AuthOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/Options/AuthOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Entities/Launch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/Entities/Launch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Migrations/20181030150552_initialMigr.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Migrations/20181030150552_initialMigr.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StatosphericBackend/Migrations/ApplicationContextModelSnapshot.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/StatosphericBackend/bin/Debug/netcoreapp2.1/StatosphericBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/bin/Debug/netcoreapp2.1/StatosphericBackend.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StatosphericBackend/bin/Debug/netcoreapp2.1/StatosphericBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/bin/Debug/netcoreapp2.1/StatosphericBackend.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/obj/Debug/netcoreapp2.1/StatosphericBackend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatosphericBackend/obj/StatosphericBackend.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/obj/StatosphericBackend.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatosphericBackend/obj/StatosphericBackend.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/obj/StatosphericBackend.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StatosphericBackend/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StatosphericBackend/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +52,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="stratodb: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="stratodb" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="stratodb: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="AspNetUsers: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -70,31 +59,37 @@
     <session id="-117058577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="6" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="8" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="AspNetUserLogins" value="1" />
-          <entry key="AspNetUserRoles" value="1" />
-          <entry key="AspNetUsers" value="5" />
+          <entry key="AspNetRoleClaims" value="1" />
+          <entry key="AspNetRoles" value="2" />
+          <entry key="AspNetUserClaims" value="1" />
+          <entry key="AspNetUserLogins" value="2" />
+          <entry key="AspNetUserRoles" value="3" />
+          <entry key="AspNetUserTokens" value="1" />
+          <entry key="AspNetUsers" value="11" />
           <entry key="IdentityUserClaim" value="1" />
-          <entry key="Launches" value="1" />
+          <entry key="Launches" value="6" />
+          <entry key="Photo" value="6" />
           <entry key="Users" value="3" />
-          <entry key="cs" value="70" />
+          <entry key="cs" value="94" />
           <entry key="json" value="1" />
           <entry key="save" value="1" />
           <entry key="sql" value="5" />
+          <entry key="user" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="70" />
-          <entry key="Database Element" value="12" />
+          <entry key="C#" value="94" />
+          <entry key="Database Element" value="40" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="5" />
@@ -102,14 +97,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="4395" />
+          <entry key="cs" value="6861" />
           <entry key="json" value="41" />
           <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="4395" />
+          <entry key="C#" value="6861" />
           <entry key="JSON" value="41" />
           <entry key="PLAIN_TEXT" value="32" />
         </counts>
@@ -119,147 +114,139 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StatosphericBackend/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-              <folding>
-                <marker date="1540924262667" expanded="false" signature="6:730" ph="..." />
-                <marker date="1540924262667" expanded="true" signature="761:3543" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="788:3541" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="847:910" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="1141:2814" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="1613:1943" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="1981:2557" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="2198:2538" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="2688:2802" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="3002:3535" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="3079:3156" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="3173:3232" ph="{...}" />
-                <marker date="1540924262667" expanded="true" signature="3267:3421" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StatosphericBackend/Controllers/UserController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-819">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="346">
+              <caret line="120" column="6" lean-forward="true" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
               <folding>
-                <marker date="1541062283911" expanded="false" signature="6:512" ph="..." />
-                <marker date="1541062283911" expanded="true" signature="555:4860" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="658:4858" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="973:1109" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="1243:2182" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="1289:2172" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="1356:1555" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="1696:2025" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="1849:2005" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="2046:2158" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="2271:3948" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="2317:3938" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="2505:3858" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="2593:2785" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="3451:3574" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="4034:4174" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="4239:4355" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="4478:4759" ph="{...}" />
-                <marker date="1541062283911" expanded="true" signature="4582:4749" ph="/* using (var stream = new MemoryStream()) ... */" />
+                <marker date="1541242900749" expanded="false" signature="6:549" ph="..." />
+                <marker date="1541242900749" expanded="true" signature="592:7663" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="695:7661" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="1010:1146" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="1280:2151" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="1326:2141" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="1393:1592" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="1733:1994" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="1818:1974" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="2015:2127" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="2240:4170" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="2399:4160" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="2587:4080" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="2675:2978" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="3673:3796" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="4235:4304" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="4418:4961" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="4679:4951" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="5079:5238" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="5344:5446" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="5558:5663" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="5755:6035" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="6186:6518" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="6245:6417" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="6649:6829" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="6940:7114" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="7279:7480" ph="{...}" />
+                <marker date="1541242900749" expanded="true" signature="7560:7655" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/560D56F8-376D-4258-A59A-D5478913C777/af/bbd392cb/HttpContext.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUserRoles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3FEE0072-8729-49B5-BCCD-EEA31C090EC7/8f/efb401fc/ClaimsPrincipal.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetRoles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StatosphericBackend/Controllers/ValuesController.cs">
+        <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUserLogins">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUserClaims">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/Photo">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetRoleClaims">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUsers">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StatosphericBackend/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="1219">
+              <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="80" selection-end-column="13" />
               <folding>
-                <marker date="1541061386787" expanded="false" signature="6:578" ph="..." />
-                <marker date="1541061386787" expanded="true" signature="621:1822" ph="{...}" />
-                <marker date="1541061386787" expanded="true" signature="726:1820" ph="{...}" />
-                <marker date="1541061386787" expanded="true" signature="1097:1267" ph="{...}" />
-                <marker date="1541061386787" expanded="true" signature="1367:1425" ph="{...}" />
-                <marker date="1541061386787" expanded="true" signature="1560:1805" ph="{...}" />
-                <marker date="1541061386787" expanded="true" signature="1702:1795" ph="{...}" />
+                <marker date="1541062822491" expanded="false" signature="6:730" ph="..." />
+                <marker date="1541062822491" expanded="true" signature="761:3543" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="788:3541" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="847:910" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="1141:2814" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="1613:1943" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="1981:2557" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="2198:2538" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="2688:2802" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="3002:3535" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="3079:3156" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="3173:3232" ph="{...}" />
+                <marker date="1541062822491" expanded="true" signature="3267:3421" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/e7/d887a55b/ClaimsPrincipal.cs">
+        <entry file="file://$PROJECT_DIR$/StatosphericBackend/Entities/Launch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="283" column="7" selection-start-line="283" selection-start-column="7" selection-end-line="283" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2BD385E8-968B-48D6-B65B-62AA7D7035AB/6c/aaa96857/MemoryStream.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="471" column="26" selection-start-line="471" selection-start-column="26" selection-end-line="471" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StatosphericBackend/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state>
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="14" />
               <folding>
-                <marker date="1540478061427" expanded="false" signature="6:255" ph="..." />
-                <marker date="1540478061427" expanded="true" signature="286:783" ph="{...}" />
-                <marker date="1540478061427" expanded="true" signature="313:781" ph="{...}" />
-                <marker date="1540478061427" expanded="true" signature="366:440" ph="{...}" />
-                <marker date="1540478061427" expanded="true" signature="610:734" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9E583682-5CC6-412D-8360-C4C6ADFE4941/65/cd8b5157/IFormFile.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StatosphericBackend/Options/AuthOptions.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-              <folding>
-                <marker date="1540924262687" expanded="false" signature="6:56" ph="..." />
-                <marker date="1540924262687" expanded="true" signature="126:571" ph="{...}" />
-                <marker date="1540924262687" expanded="true" signature="470:565" ph="{...}" />
+                <marker date="1541184913515" expanded="true" signature="53:307" ph="{...}" />
+                <marker date="1541184913515" expanded="true" signature="79:305" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -267,16 +254,23 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>UseAuth</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/560D56F8-376D-4258-A59A-D5478913C777/25/ff8af7db/HttpResponse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/b0/1dc3e398/ClaimsIdentity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StatosphericBackend/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StatosphericBackend/Models/AuthModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26253E62-F175-49F5-BAB2-BDC919011F56/33/6a92d91f/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StatosphericBackend/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26253E62-F175-49F5-BAB2-BDC919011F56/dc/585ccde7/IdentityUser`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StatosphericBackend/Models/LaunchAddRequestModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StatosphericBackend/Context/ApplicationContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StatosphericBackend/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2BD385E8-968B-48D6-B65B-62AA7D7035AB/42/8fc8b566/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
@@ -288,6 +282,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/be/a5caded7/DbContextOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/283EC7A1-E0DC-44AE-802F-2A38BD868DC7/e6/62b78806/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/97/5cb82ed6/ActionResult`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FC4FA66-9CF3-48C2-9BE8-7AB3AFFA8FFA/77/650bf4bc/SecurityAlgorithms.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4CE358CB-F799-4870-AB28-094F18916D92/be/cdc11138/SignInManager`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C7CF6354-FDBD-4D4A-8E1F-5A0D0DEB310C/fe/8feeab23/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87DAEA5C-C5D0-47D4-A6BB-FF8954AA1C4A/62/10930e6f/IOptions`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -295,16 +290,21 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9E583682-5CC6-412D-8360-C4C6ADFE4941/65/cd8b5157/IFormFile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StatosphericBackend/Entities/Launch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4CE358CB-F799-4870-AB28-094F18916D92/1f/aa11921a/IdentityBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/f1/fe472ed7/ClaimTypes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9FEA460-E759-483C-B4A2-1048676EA8E1/47/36fd7ac1/JwtBearerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07DE3E67-FFD1-4268-B6BE-81C34E676267/cb/7c6375ee/UserManager`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2BD385E8-968B-48D6-B65B-62AA7D7035AB/6c/aaa96857/MemoryStream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E44F3B8-19BB-4CA7-9FFD-51E4AE9871C9/be/fba4942c/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07DE3E67-FFD1-4268-B6BE-81C34E676267/b1/017bdc35/PrincipalExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StatosphericBackend/Options/AuthOptions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/398FFC85-F043-4882-8DB1-98F1D9A058A5/99/350cecd4/ValidateAntiForgeryTokenAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StatosphericBackend/Entities/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StatosphericBackend/Models/UserRegisterRequestModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/e7/d887a55b/ClaimsPrincipal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62DA3DD8-0EB8-419C-A3B1-D1905A601B04/3f/24161d29/IIdentity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/560D56F8-376D-4258-A59A-D5478913C777/af/bbd392cb/HttpContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/e2/fde7d08e/Claim.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StatosphericBackend/Entities/Photo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3FEE0072-8729-49B5-BCCD-EEA31C090EC7/8f/efb401fc/ClaimsPrincipal.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -312,22 +312,24 @@
       <list>
         <option value="$PROJECT_DIR$/StatosphericBackend/Context.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Context/UserContext.cs" />
-        <option value="$PROJECT_DIR$/StatosphericBackend/Entities/Launch.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Options/ApiOptions.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Program.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/appsettings.json" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Entities/GetWeatherRequestModel.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Controllers/AuthorizationController.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Entities/UserRegisterModel.cs" />
-        <option value="$PROJECT_DIR$/StatosphericBackend/Entities/User.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Entities/AuthModel.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Entities/RegisterModel.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Options/AuthOptions.cs" />
-        <option value="$PROJECT_DIR$/StatosphericBackend/Startup.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Interfaces/IFormFile.cs" />
-        <option value="$PROJECT_DIR$/StatosphericBackend/Context/ApplicationContext.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/StatosphericBackend/Entities/Photo.cs" />
+        <option value="$PROJECT_DIR$/StatosphericBackend/Entities/User.cs" />
+        <option value="$PROJECT_DIR$/StatosphericBackend/Context/ApplicationContext.cs" />
+        <option value="$PROJECT_DIR$/StatosphericBackend/Startup.cs" />
+        <option value="$PROJECT_DIR$/StatosphericBackend/Entities/Launch.cs" />
+        <option value="$PROJECT_DIR$/StatosphericBackend/Models/LaunchAddRequestModel.cs" />
         <option value="$PROJECT_DIR$/StatosphericBackend/Controllers/UserController.cs" />
       </list>
     </option>
@@ -352,6 +354,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -364,12 +367,41 @@
               <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
               <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Context" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Entities" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="StatosphericBackend" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Options" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,7 +410,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -435,12 +467,16 @@
       <workItem from="1540825627342" duration="5107000" />
       <workItem from="1540886962140" duration="19887000" />
       <workItem from="1540922378919" duration="2618000" />
-      <workItem from="1541060263444" duration="2291000" />
+      <workItem from="1541060263444" duration="19636000" />
+      <workItem from="1541145063001" duration="521000" />
+      <workItem from="1541161498183" duration="6996000" />
+      <workItem from="1541182829355" duration="5957000" />
+      <workItem from="1541223900584" duration="10917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49707000" />
+    <option name="totallyTimeSpent" value="91443000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,31 +491,31 @@
     <frame x="67" y="27" width="1853" height="1053" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20475927" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22191478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" internal_type="SLIDING" order="2" type="SLIDING" weight="0.7707212" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4757804" />
+      <window_info anchor="bottom" id="Run" internal_type="SLIDING" order="2" type="SLIDING" weight="0.44025835" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4748954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.6953714" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.69456065" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32938644" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.583423" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32938644" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.32938644" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.51776105" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.5167364" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.32938644" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.41639698" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.32938644" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32982844" />
+      <window_info anchor="right" id="Database" order="4" weight="0.20475927" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,24 +533,41 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/StatosphericBackend/Controllers/UserController.cs</url>
-          <line>107</line>
-          <properties documentPath="$PROJECT_DIR$/StatosphericBackend/Controllers/UserController.cs" initialLine="108">
-            <startOffsets>
-              <option value="4057" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4117" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>_context.Photo.Count</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_context.Photo.Count()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_context.Photo</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>HttpContext.User</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>User</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>user</expression-string>
         <language-id>C#</language-id>
@@ -530,81 +583,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Entities/GetWeatherRequestModel.cs" />
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Options/ApiOptions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/27/403ef378/DbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/64899ad2-61c4-4350-bdfa-370482e15ea4/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9FEA460-E759-483C-B4A2-1048676EA8E1/47/36fd7ac1/JwtBearerExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9FEA460-E759-483C-B4A2-1048676EA8E1/8f/6beabbe8/JwtBearerOptions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="53" column="68" selection-start-line="53" selection-start-column="68" selection-end-line="53" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/be/a5caded7/DbContextOptions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Migrations/20181025133653_LaunchMigration.cs" />
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Migrations/ApplicationContextModelSnapshot.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/b0/1dc3e398/ClaimsIdentity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E44F3B8-19BB-4CA7-9FFD-51E4AE9871C9/be/fba4942c/HttpClient.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5267">
-          <caret line="229" column="37" selection-start-line="229" selection-start-column="37" selection-end-line="229" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87DAEA5C-C5D0-47D4-A6BB-FF8954AA1C4A/62/10930e6f/IOptions`1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26253E62-F175-49F5-BAB2-BDC919011F56/33/6a92d91f/IdentityUser.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -623,7 +605,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StatosphericBackend/Migrations/20181030130438_initialMigr.cs" />
-    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/Launches" />
     <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/Users" />
     <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/IdentityUserClaim" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26253E62-F175-49F5-BAB2-BDC919011F56/44/2446f3d6/IdentityRole.cs">
@@ -633,15 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07DE3E67-FFD1-4268-B6BE-81C34E676267/cb/7c6375ee/UserManager`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="400" column="31" selection-start-line="400" selection-start-column="31" selection-end-line="400" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUserRoles" />
-    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUserLogins" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4CE358CB-F799-4870-AB28-094F18916D92/1f/aa11921a/IdentityBuilderExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -663,21 +635,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Entities/Launch.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StatosphericBackend/Models/RegisterModel.cs" />
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Entities/User.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2BD385E8-968B-48D6-B65B-62AA7D7035AB/42/8fc8b566/ExecutionContext.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -685,42 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUsers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Models/UserRegisterRequestModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <marker date="1540922757230" expanded="true" signature="93:146" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Context/ApplicationContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <marker date="1540924996768" expanded="false" signature="7:181" ph="..." />
-            <marker date="1540924996768" expanded="true" signature="283:474" ph="{...}" />
-            <marker date="1540924996768" expanded="true" signature="447:467" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Interfaces/IFormFile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Interfaces/IFormFile.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/283EC7A1-E0DC-44AE-802F-2A38BD868DC7/e6/62b78806/AuthorizeAttribute.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -728,42 +651,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Models/AuthModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <marker date="1540888569477" expanded="true" signature="113:351" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StatosphericBackend/Options/AuthOptions.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding>
-            <marker date="1540924262687" expanded="false" signature="6:56" ph="..." />
-            <marker date="1540924262687" expanded="true" signature="126:571" ph="{...}" />
-            <marker date="1540924262687" expanded="true" signature="470:565" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Startup.cs.save">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Startup.cs.save" />
     <entry file="file://$PROJECT_DIR$/StatosphericBackend/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding>
-            <marker date="1540478061427" expanded="false" signature="6:255" ph="..." />
-            <marker date="1540478061427" expanded="true" signature="286:783" ph="{...}" />
-            <marker date="1540478061427" expanded="true" signature="313:781" ph="{...}" />
-            <marker date="1540478061427" expanded="true" signature="366:440" ph="{...}" />
-            <marker date="1540478061427" expanded="true" signature="610:734" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,26 +680,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/e7/d887a55b/ClaimsPrincipal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="283" column="7" selection-start-line="283" selection-start-column="7" selection-end-line="283" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StatosphericBackend/Controllers/ValuesController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="695">
           <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <marker date="1541061386787" expanded="false" signature="6:578" ph="..." />
-            <marker date="1541061386787" expanded="true" signature="621:1822" ph="{...}" />
-            <marker date="1541061386787" expanded="true" signature="726:1820" ph="{...}" />
-            <marker date="1541061386787" expanded="true" signature="1097:1267" ph="{...}" />
-            <marker date="1541061386787" expanded="true" signature="1367:1425" ph="{...}" />
-            <marker date="1541061386787" expanded="true" signature="1560:1805" ph="{...}" />
-            <marker date="1541061386787" expanded="true" signature="1702:1795" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,59 +694,265 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/560D56F8-376D-4258-A59A-D5478913C777/af/bbd392cb/HttpContext.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/f1/fe472ed7/ClaimTypes.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        <state relative-caret-position="336">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Controllers/UserController.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07DE3E67-FFD1-4268-B6BE-81C34E676267/b1/017bdc35/PrincipalExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-819">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="437">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62DA3DD8-0EB8-419C-A3B1-D1905A601B04/3f/24161d29/IIdentity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07DE3E67-FFD1-4268-B6BE-81C34E676267/cb/7c6375ee/UserManager`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="400" column="31" selection-start-line="400" selection-start-column="31" selection-end-line="400" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/b0/1dc3e398/ClaimsIdentity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/e2/fde7d08e/Claim.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4669">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/mysql/table/user" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26253E62-F175-49F5-BAB2-BDC919011F56/33/6a92d91f/IdentityUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Models/UserRegisterRequestModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/560D56F8-376D-4258-A59A-D5478913C777/25/ff8af7db/HttpResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Context/ApplicationContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/560D56F8-376D-4258-A59A-D5478913C777/af/bbd392cb/HttpContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48352BAA-DC3A-408C-9E3D-D6E714B743B3/e7/d887a55b/ClaimsPrincipal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5221">
+          <caret line="227" column="21" selection-start-line="227" selection-start-column="21" selection-end-line="227" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Entities/Photo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Entities/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding>
-            <marker date="1541062283911" expanded="false" signature="6:512" ph="..." />
-            <marker date="1541062283911" expanded="true" signature="555:4860" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="658:4858" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="973:1109" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="1243:2182" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="1289:2172" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="1356:1555" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="1696:2025" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="1849:2005" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="2046:2158" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="2271:3948" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="2317:3938" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="2505:3858" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="2593:2785" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="3451:3574" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="4034:4174" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="4239:4355" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="4478:4759" ph="{...}" />
-            <marker date="1541062283911" expanded="true" signature="4582:4749" ph="/* using (var stream = new MemoryStream()) ... */" />
+            <marker date="1541077681820" expanded="false" signature="6:70" ph="..." />
+            <marker date="1541077681820" expanded="true" signature="148:249" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Models/AuthModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1540888569477" expanded="true" signature="113:351" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Models/LaunchAddRequestModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <marker date="1541185103229" expanded="true" signature="94:281" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FC4FA66-9CF3-48C2-9BE8-7AB3AFFA8FFA/77/650bf4bc/SecurityAlgorithms.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUserTokens">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/Launches">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUsers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUserLogins">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetRoles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetRoleClaims">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUserRoles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/AspNetUserClaims">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Entities/Launch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <marker date="1541184913515" expanded="true" signature="53:307" ph="{...}" />
+            <marker date="1541184913515" expanded="true" signature="79:305" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://64899ad2-61c4-4350-bdfa-370482e15ea4/schema/stratodb/table/Photo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StatosphericBackend/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state relative-caret-position="1219">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="80" selection-end-column="13" />
           <folding>
-            <marker date="1540924262667" expanded="false" signature="6:730" ph="..." />
-            <marker date="1540924262667" expanded="true" signature="761:3543" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="788:3541" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="847:910" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="1141:2814" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="1613:1943" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="1981:2557" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="2198:2538" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="2688:2802" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="3002:3535" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="3079:3156" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="3173:3232" ph="{...}" />
-            <marker date="1540924262667" expanded="true" signature="3267:3421" ph="{...}" />
+            <marker date="1541062822491" expanded="false" signature="6:730" ph="..." />
+            <marker date="1541062822491" expanded="true" signature="761:3543" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="788:3541" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="847:910" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="1141:2814" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="1613:1943" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="1981:2557" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="2198:2538" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="2688:2802" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="3002:3535" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="3079:3156" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="3173:3232" ph="{...}" />
+            <marker date="1541062822491" expanded="true" signature="3267:3421" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StatosphericBackend/Controllers/UserController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="120" column="6" lean-forward="true" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
+          <folding>
+            <marker date="1541242900749" expanded="false" signature="6:549" ph="..." />
+            <marker date="1541242900749" expanded="true" signature="592:7663" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="695:7661" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="1010:1146" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="1280:2151" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="1326:2141" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="1393:1592" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="1733:1994" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="1818:1974" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="2015:2127" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="2240:4170" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="2399:4160" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="2587:4080" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="2675:2978" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="3673:3796" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="4235:4304" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="4418:4961" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="4679:4951" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="5079:5238" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="5344:5446" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="5558:5663" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="5755:6035" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="6186:6518" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="6245:6417" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="6649:6829" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="6940:7114" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="7279:7480" ph="{...}" />
+            <marker date="1541242900749" expanded="true" signature="7560:7655" ph="{...}" />
           </folding>
         </state>
       </provider>

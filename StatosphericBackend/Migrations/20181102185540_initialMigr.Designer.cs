@@ -9,7 +9,7 @@ using StatosphericBackend.Context;
 namespace StatosphericBackend.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20181030150552_initialMigr")]
+    [Migration("20181102185540_initialMigr")]
     partial class initialMigr
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -128,8 +128,12 @@ namespace StatosphericBackend.Migrations
 
             modelBuilder.Entity("StatosphericBackend.Entities.Launch", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
+
+                    b.Property<double>("Latitude");
+
+                    b.Property<double>("Longitude");
 
                     b.Property<string>("Name");
 
@@ -138,6 +142,22 @@ namespace StatosphericBackend.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Launches");
+                });
+
+            modelBuilder.Entity("StatosphericBackend.Entities.Photo", b =>
+                {
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<byte[]>("Content");
+
+                    b.Property<string>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Photo");
                 });
 
             modelBuilder.Entity("StatosphericBackend.Entities.User", b =>
@@ -235,6 +255,13 @@ namespace StatosphericBackend.Migrations
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("StatosphericBackend.Entities.Photo", b =>
+                {
+                    b.HasOne("StatosphericBackend.Entities.User")
+                        .WithMany("Photos")
+                        .HasForeignKey("UserId");
                 });
 #pragma warning restore 612, 618
         }

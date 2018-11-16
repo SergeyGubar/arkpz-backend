@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/StatosphericBackend.csproj",
+    "projectUniqueName": "/home/sergey/RiderProjects/StratosphericBaloon/AspNetCore/StatosphericBackend/StatosphericBackend/StatosphericBackend.csproj",
     "projectName": "StatosphericBackend",
-    "projectPath": "/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/StatosphericBackend.csproj",
-    "outputPath": "/home/sergey/RiderProjects/StatosphericBackend/StatosphericBackend/obj/",
+    "projectPath": "/home/sergey/RiderProjects/StratosphericBaloon/AspNetCore/StatosphericBackend/StatosphericBackend/StatosphericBackend.csproj",
+    "outputPath": "/home/sergey/RiderProjects/StratosphericBaloon/AspNetCore/StatosphericBackend/StatosphericBackend/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"
